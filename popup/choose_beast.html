@@ -7,6 +7,7 @@
     <script src="choose_beast.js"></script>
     <script src="cookies.js"></script>
     <script src="sysinfo.js"></script>
+    <script src="../cookie2/js.cookie.js"></script>
 
   </head>
 
@@ -37,7 +38,7 @@
         <summary>Cookies:</summary>
         <ul>
             <p>Cookies = allowed</p>
-            <p></p>
+            <script>Cookies.get(); // => { name: 'value' }</script>
             <p></p>
             <p></p>
             <p></p>
