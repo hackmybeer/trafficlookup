@@ -1,16 +1,21 @@
 function showCookiesForTab(tabs) {
   //get the first tab object in the array
   let tab = tabs.pop();
+  console.log("loadingcookies");
+  console.log("foundde")
 
   //get all cookies in the domain
   var gettingAllCookies = browser.cookies.getAll({url: tab.url});
+  console.log("foun")
   gettingAllCookies.then((cookies) => {
+    console.log("found_tea")
 
     //set the header of the panel
     var activeTabUrl = document.getElementById('header-title');
     var text = document.createTextNode("Cookies at: "+tab.title);
     var cookieTable = document.getElementById('cookie-list');
     activeTabUrl.appendChild(text);
+    console.log("found_cookies")
 
     if (cookies.length > 0) {
       //add an <li> item with the name and value of the cookie to the list
@@ -25,7 +30,7 @@ function showCookiesForTab(tabs) {
         cookieTable.appendChild(tr);
         tr.appendChild(tdName);
         tr.appendChild(tdValue);
-
+        console.log("found_cookies")
       }
     } else {
       let p = document.createElement("p");
