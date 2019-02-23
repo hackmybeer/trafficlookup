@@ -18,8 +18,8 @@ function showCookiesForTab(tabs) {
         let tr = document.createElement("tr");
         let tdName = document.createElement("td");
         let tdValue = document.createElement("td");
-        let contentName = document.createTextNode(cookie.name);
-        let contentValue = document.createTextNode(cookie.value);
+        let contentName = document.createTextNode(cookie.name.replace("_", " "));
+        let contentValue = document.createTextNode(cookie.value.substring(0, 30));
         tdName.appendChild(contentName);
         tdValue.appendChild(contentValue);
         cookieTable.appendChild(tr);
