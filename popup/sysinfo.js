@@ -155,6 +155,13 @@ var module = {
   }
 };
 
+navigator.geolocation.getCurrentPosition(function(position) {
+  //do_something(position.coords.latitude, position.coords.longitude);
+  console.log(position.coords.latitude);
+  console.log(position.coords.longitude);
+});
+//console.log(position);
+
 var e = module.init(),
   debug = '';
 
@@ -166,15 +173,8 @@ debug += '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
 debug += 'Platform = ' + navigator.platform + '<br/>';
-
-navigator.geolocation.getCurrentPosition(function(position) {
-  //do_something(position.coords.latitude, position.coords.longitude);
-  console.log(position);
-});
-console.log(position);
-
-debug += 'Position = ' + position + '<br/>';
-
+debug += 'Location latitude = ' + position.coords.latitude + '<br/>';
+debug += 'Location longitude = ' + position.coords.longitude + '<br/>';
 
 browser.browsingData.settings()
 .then(function(result){
@@ -189,4 +189,6 @@ browser.browsingData.settings()
 
 document.getElementById('log').innerHTML = debug;
 }());
-}
+
+
+  }
