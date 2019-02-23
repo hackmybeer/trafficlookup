@@ -35,7 +35,7 @@ function showCookiesForTab(tabs) {
     } else {
       let p = document.createElement("p");
       let content = document.createTextNode("No cookies in this tab.");
-      let parent = cookieList.parentNode;
+      let parent = cookieTable.parentNode;
 
       p.appendChild(content);
       parent.appendChild(p);
