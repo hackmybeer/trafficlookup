@@ -1,6 +1,6 @@
 function getIP(json) {
     document.write("My public IP address is: ", json.ip);
- }   
+ }
 
   var RTCPeerConnection = /*window.RTCPeerConnection ||*/ window.webkitRTCPeerConnection || window.mozRTCPeerConnection;
 if (RTCPeerConnection)(function() {
