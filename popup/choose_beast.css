@@ -49,7 +49,9 @@ h1 {
   position: absolute;
 }
 
-
+table {
+  text-align: right;
+}
 
 b {
     font-family: "Arial", Arial, Sans-serif;
