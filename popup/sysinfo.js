@@ -171,6 +171,7 @@ debug += 'Platform = ' + navigator.platform + '<br/>';
 browser.browsingData.settings()
 .then(function(result){
     console.log(result);
+    console.log("SNIFbuoFUO");
 })
 .catch(function(error){
     // Handle error
