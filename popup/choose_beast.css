@@ -1,6 +1,11 @@
 html, body {
+  border-radius: 40px;
   width: 400px;
   line-height: 1.8;
+}
+
+popup-content {
+  border-radius: 25;
 }
 
 .hidden {

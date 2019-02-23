@@ -1,6 +1,11 @@
 h1 {
   font-family: "Arial", Arial, Sans-serif;
   font-weight:bold;
+  left: 50%;
+  line-height: 200px;
   margin: auto;
-  
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
