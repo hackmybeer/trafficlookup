@@ -179,7 +179,7 @@ debug += '<tr> <td class="left"> Version </td> <td class="right">' + e.os.versio
 debug += '<tr> <td class="left"> Browser </td> <td class="right">' + e.browser.name + '</td><tr/>';
 debug += '<tr><td class="left"> Browserversion </td> <td class="right">' + e.browser.version + '</td><tr/>';
 debug += '<tr><td class="left"> UserAgent </td> <td class="right">' + navigator.userAgent + '</td><tr/>';
-debug += '<tr><td class="left"> AppVersion> </td> <td class="right">' + navigator.appVersion + '</td><tr/>';
+debug += '<tr><td class="left"> AppVersion </td> <td class="right">' + navigator.appVersion + '</td><tr/>';
 debug += '<tr><td class="left"> Platform  </td><td class="right">' + navigator.platform + '</td><tr/>';
 
 browser.browsingData.settings()
