@@ -15,7 +15,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/beast-64.png",
+    "default_icon": "icons/logo_addon.png",
     "default_title": "trafficlookup",
     "default_popup": "popup/choose_beast.html"
   },
