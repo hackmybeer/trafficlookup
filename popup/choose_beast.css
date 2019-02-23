@@ -49,3 +49,7 @@ p {
 .reset:hover {
   background-color: #EAEA9D;
 }
+
+.panel {
+  padding: 5px;
+}

@@ -9,16 +9,23 @@ function showCookiesForTab(tabs) {
     //set the header of the panel
     var activeTabUrl = document.getElementById('header-title');
     var text = document.createTextNode("Cookies at: "+tab.title);
-    var cookieList = document.getElementById('cookie-list');
+    var cookieTable = document.getElementById('cookie-list');
     activeTabUrl.appendChild(text);
 
     if (cookies.length > 0) {
       //add an <li> item with the name and value of the cookie to the list
       for (let cookie of cookies) {
-        let li = document.createElement("li");
-        let content = document.createTextNode(cookie.name + ": "+ cookie.value);
-        li.appendChild(content);
-        cookieList.appendChild(li);
+        let tr = document.createElement("tr");
+        let tdName = document.createElement("td");
+        let tdValue = document.createElement("td");
+        let contentName = document.createTextNode(cookie.name.replace("_", " "));
+        let contentValue = document.createTextNode(cookie.value.substring(0, 30));
+        tdName.appendChild(contentName);
+        tdValue.appendChild(contentValue);
+        cookieTable.appendChild(tr);
+        tr.appendChild(tdName);
+        tr.appendChild(tdValue);
+
       }
     } else {
       let p = document.createElement("p");
@@ -37,4 +44,3 @@ function getActiveTab() {
   return browser.tabs.query({currentWindow: true, active: true});
 }
 getActiveTab().then(showCookiesForTab);
-
