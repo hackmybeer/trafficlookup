@@ -162,11 +162,15 @@ debug += 'Betriebsystem = ' + e.os.name + '<br/>';
 debug += 'Version = ' + e.os.version + '<br/>';
 debug += 'Browser = ' + e.browser.name + '<br/>';
 debug += 'Browserversion = ' + e.browser.version + '<br/>';
-
 debug += '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
 debug += 'Platform = ' + navigator.platform + '<br/>';
+
+navigator.geolocation.getCurrentPosition(function(position) {
+  do_something(position.coords.latitude, position.coords.longitude);
+  console.log(position);
+});
 
 browser.browsingData.settings()
 .then(function(result){
