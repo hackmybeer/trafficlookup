@@ -162,7 +162,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
 
   let infolong = 'Location longitude = ' + position.coords.longitude + '<br/>'
   let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>'
-  let addresslookup = "https://www.openstreetmap.org/#map=11/" + position.coords.latitude + "/" + position.coords.longitude
+  let addresslookup = "https://www.openstreetmap.org/directions?from=&to=" + position.coords.latitude + "%2C" + position.coords.longitude
   document.getElementById('linkmap').setAttribute("href", addresslookup);
   console.log("https://www.openstreetmap.org/#map=11/" + position.coords.latitude + "/" + position.coords.longitude)
   document.getElementById('lockk').innerHTML += infolong;
