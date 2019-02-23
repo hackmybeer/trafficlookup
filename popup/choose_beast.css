@@ -36,7 +36,20 @@ h1 {
   font-weight: bold;
   text-decoration: underline;
   line-height: 1;
+  border-bottom: 10px solid #000
+  padding-bottom: 1px.
 }
+
+
+
+.line{
+  width: 112px;
+  height: 10px;
+  border-bottom: 5px solid black;
+  position: absolute;
+}
+
+
 
 b {
     font-family: "Arial", Arial, Sans-serif;
