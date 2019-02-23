@@ -30,11 +30,18 @@ summary {
     font-family: "Arial", Arial, Sans-serif;
 }
 
+h1 {
+  font-family: "Arial", Arial, Sans-serif;
+  font-size: 4.5;
+  font-weight: bold;
+  line-height: 1;
+}
 
 b {
     font-family: "Arial", Arial, Sans-serif;
     font-size: 3.5;
     line-height: 1.8;
+
 }
 
 p {
