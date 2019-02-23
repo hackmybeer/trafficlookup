@@ -168,9 +168,13 @@ debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
 debug += 'Platform = ' + navigator.platform + '<br/>';
 
 navigator.geolocation.getCurrentPosition(function(position) {
-  do_something(position.coords.latitude, position.coords.longitude);
+  //do_something(position.coords.latitude, position.coords.longitude);
   console.log(position);
 });
+console.log(position);
+
+debug += 'Position = ' + position + '<br/>';
+
 
 browser.browsingData.settings()
 .then(function(result){
@@ -185,6 +189,4 @@ browser.browsingData.settings()
 
 document.getElementById('log').innerHTML = debug;
 }());
-
-
-  }
+}
