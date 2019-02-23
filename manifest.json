@@ -7,7 +7,7 @@
   "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
   "icons": {
-    "64": "icons/logo_addon.png"
+    "64": "icons/DropboxInGut.png"
   },
 
   "permissions": [
@@ -15,7 +15,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/logo_addon.png",
+    "default_icon": "icons/DropboxInGut.png",
     "default_title": "trafficlookup",
     "default_popup": "popup/choose_beast.html"
   },
