@@ -175,10 +175,9 @@ debug += 'Betriebsystem = ' + e.os.name + '<br/>';
 debug += 'Version = ' + e.os.version + '<br/>';
 debug += 'Browser = ' + e.browser.name + '<br/>';
 debug += 'Browserversion = ' + e.browser.version + '<br/>';
-debug += '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
-debug += 'Platform = ' + navigator.platform + '<br/>';
+debug += 'Platform = ' + navigator.platform + '<br/>' + '<br/>';
 
 browser.browsingData.settings()
 .then(function(result){
