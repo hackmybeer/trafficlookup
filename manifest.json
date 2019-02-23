@@ -15,7 +15,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/beast-65.png",
+    "default_icon": "icons/beast-64.png",
     "default_title": "Beastify",
     "default_popup": "popup/choose_beast.html"
   },
