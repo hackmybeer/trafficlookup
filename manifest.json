@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "trafficlookup",
+  "name": "Trafficlookup",
   "version": "1.1",
 
   "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
@@ -21,7 +21,7 @@
 
   "browser_action": {
     "default_icon": "icons/DropboxInGut.png",
-    "default_title": "trafficlookup",
+    "default_title": "Trafficlookup",
     "default_popup": "popup/choose_beast.html"
   },
 
