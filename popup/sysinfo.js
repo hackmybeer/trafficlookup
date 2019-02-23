@@ -167,6 +167,15 @@ debug += '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
 debug += 'Platform = ' + navigator.platform + '<br/>';
+
+browser.browsingData.settings()
+.then(function(result){
+    console.log(result);
+})
+.catch(function(error){
+    // Handle error
+});
+
 // debug += 'navigator.vendor = ' + navigator.vendor + '<br/>';
 
 document.getElementById('log').innerHTML = debug;
