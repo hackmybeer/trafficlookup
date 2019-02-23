@@ -12,7 +12,7 @@
 
   "permissions": [
     "activeTab",
-    "browsingData"
+    "browsingData",
     "navigator.geolocation"
   ],
 
