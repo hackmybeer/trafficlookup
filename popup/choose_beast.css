@@ -19,18 +19,50 @@ li {
   cursor: pointer;
 }
 
+div {
+  font-family: "Arial", Arial, Sans-serif;
+}
+
 summary {
     line-height: 1.8;
+    font-size: 1.6;
+    font-weight: bold;
+    font-family: "Arial", Arial, Sans-serif;
+}
+
+h1 {
+  font-family: "Arial", Arial, Sans-serif;
+  font-size: 4.5;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1;
+  border-bottom: 10px solid #000
+  padding-bottom: 1px.
+}
+
+
+
+.line{
+  width: 205px;
+  height: 35px;
+  border-bottom: 5px solid black;
+  position: absolute;
+}
+
+table {
+  text-align: right;
 }
 
 b {
     font-family: "Arial", Arial, Sans-serif;
     font-size: 3.5;
     line-height: 1.8;
+
 }
 
 p {
     font-family: "Arial", Arial, Sans-serif;
+    line-height: 0.1;
 }
 
 

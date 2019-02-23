@@ -161,7 +161,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
   console.log(position.coords.longitude);
 
   let infolong = 'Location longitude = ' + position.coords.longitude + '<br/>'
-  let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>' + '<br/>'
+  let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>'
 
   document.getElementById('lockk').innerHTML += infolong;
   document.getElementById('lockk').innerHTML += infolet;
@@ -169,15 +169,16 @@ navigator.geolocation.getCurrentPosition(function(position) {
 //console.log(position);
 
 var e = module.init(),
-  debug = '';
 
-debug += 'Betriebsystem = ' + e.os.name + '<br/>';
-debug += 'Version = ' + e.os.version + '<br/>';
-debug += 'Browser = ' + e.browser.name + '<br/>';
-debug += 'Browserversion = ' + e.browser.version + '<br/>';
-debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
-debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
-debug += 'Platform = ' + navigator.platform + '<br/>' + '<br/>';
+debug = '';
+
+debug += '<tr> <td> Betriebsystem </td> <td>' + e.os.name + '</td><tr/>';
+debug += '<tr> <td> Version </td> <td>' + e.os.version + '</td><tr/>';
+debug += '<tr> <td> Browser </td> <td>' + e.browser.name + '</td><tr/>';
+debug += '<tr><td>Browserversion </td> <td>' + e.browser.version + '</td><tr/>';
+debug += '<tr><td>UserAgent </td> ' + navigator.userAgent + '</td><tr/>';
+debug += '<tr><td>AppVersion  ' + navigator.appVersion + '</td><tr/>';
+debug += '<tr><td>Platform  ' + navigator.platform + '</td><tr/>';
 
 browser.browsingData.settings()
 .then(function(result){
