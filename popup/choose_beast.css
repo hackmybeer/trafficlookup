@@ -56,10 +56,12 @@ h1 {
 
 .left {
   text-align: left;
+  font-style: oblique;
+  font-weight: 500;
 }
 
 .right {
-   text-align: right; 
+   text-align: right;
 }
 
 b {
