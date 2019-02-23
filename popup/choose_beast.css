@@ -23,6 +23,7 @@ summary {
     line-height: 1.8;
 }
 
+
 b {
     font-family: "Arial", Arial, Sans-serif;
     font-size: 3.5;
@@ -31,6 +32,7 @@ b {
 
 p {
     font-family: "Arial", Arial, Sans-serif;
+    line-height: 0.1;
 }
 
 

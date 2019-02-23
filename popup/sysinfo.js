@@ -161,7 +161,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
   console.log(position.coords.longitude);
 
   let infolong = 'Location longitude = ' + position.coords.longitude + '<br/>'
-  let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>' + '<br/>'
+  let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>'
 
   document.getElementById('lockk').innerHTML += infolong;
   document.getElementById('lockk').innerHTML += infolet;
@@ -177,7 +177,7 @@ debug += 'Browser = ' + e.browser.name + '<br/>';
 debug += 'Browserversion = ' + e.browser.version + '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
-debug += 'Platform = ' + navigator.platform + '<br/>' + '<br/>';
+debug += 'Platform = ' + navigator.platform + '<br/>';
 
 browser.browsingData.settings()
 .then(function(result){
