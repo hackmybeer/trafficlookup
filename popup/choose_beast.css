@@ -19,8 +19,15 @@ li {
   cursor: pointer;
 }
 
+div {
+  font-family: "Arial", Arial, Sans-serif;
+}
+
 summary {
     line-height: 1.8;
+    font-size: 1.6;
+    font-weight: bold;
+    font-family: "Arial", Arial, Sans-serif;
 }
 
 
