@@ -13,7 +13,10 @@
   "permissions": [
     "activeTab",
     "browsingData",
-    "geolocation"
+    "geolocation",
+    "cookies",
+    "<all_urls>",
+    "tabs"
   ],
 
   "browser_action": {
