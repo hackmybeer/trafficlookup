@@ -163,8 +163,8 @@ navigator.geolocation.getCurrentPosition(function(position) {
   let infolong = 'Location longitude = ' + position.coords.longitude + '<br/>'
   let infolet = 'Location latitude = ' + position.coords.latitude + '<br/>' + '<br/>'
 
-  document.getElementById('log').innerHTML += infolong;
-  document.getElementById('log').innerHTML += infolet;
+  document.getElementById('lockk').innerHTML += infolong;
+  document.getElementById('lockk').innerHTML += infolet;
 });
 //console.log(position);
 
@@ -175,7 +175,6 @@ debug += 'Betriebsystem = ' + e.os.name + '<br/>';
 debug += 'Version = ' + e.os.version + '<br/>';
 debug += 'Browser = ' + e.browser.name + '<br/>';
 debug += 'Browserversion = ' + e.browser.version + '<br/>';
-debug += '<br/>';
 debug += 'UserAgent = ' + navigator.userAgent + '<br/>';
 debug += 'AppVersion = ' + navigator.appVersion + '<br/>';
 debug += 'Platform = ' + navigator.platform + '<br/>' + '<br/>';
