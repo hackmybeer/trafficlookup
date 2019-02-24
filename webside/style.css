@@ -1,0 +1,25 @@
+body {
+  background-image: url("pictures/bg.png");
+  background-position: top-right;
+
+}
+#top {
+  height: 70px;
+  weight: 1000px;
+  background: linear-gradient(to right,rgba(38,38,38,1),rgba(45,45,45,1),rgba(80,80,80,1),rgba(125,125,125,0))
+  /*linear-gradient(to right, (20,20,20), rgba(255,255,255,1));*/
+
+}
+summary {
+  font-family: "Arial", Arial, Sans-serif;
+}
+h1 {
+  font-weight:bold;
+  left: 52%;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
