@@ -1,8 +1,5 @@
 # Trafficlookup
 
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 Hey, with this Firefox extension you can see wich data will be sniffed.
 ![](header.png)
 
