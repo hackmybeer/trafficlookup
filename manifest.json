@@ -4,8 +4,8 @@
   "name": "Trafficlookup",
   "version": "1.1",
 
-  "description": "You can see systeminformations, cookies and more. Check if someone is stealing your data. Take your Privacy back!",
-  "homepage_url": "",
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+  "homepage_url": "https://github.com/TheProgrammingM/trafficlookup",
   "icons": {
     "64": "icons/DropboxInGut.png"
   },
@@ -23,5 +23,12 @@
     "default_icon": "icons/DropboxInGut.png",
     "default_title": "Trafficlookup",
     "default_popup": "popup/choose_beast.html"
-  }
+  },
+
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+
 }
