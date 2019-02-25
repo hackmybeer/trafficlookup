@@ -12,12 +12,10 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 
 ## Authors:
 Programming:
-Maris Beer
-Sacha Schrempp
+Maris Beer, Sacha Schrempp
 
 Layout:
-Silas Schimmel
+Silas Schimmel, Silas Schimmel
 
 Website:
-Maris Beer
-Silas Schimmel
+Maris Beer, Silas Schimmel, Sascha Schrempp
