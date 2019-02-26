@@ -15,7 +15,7 @@ Programming:
 Maris Beer, Sacha Schrempp
 
 Layout:
-Silas Schimmel, Silas Schimmel
+Silas Schimmel
 
 Website:
 Maris Beer, Silas Schimmel, Sascha Schrempp
