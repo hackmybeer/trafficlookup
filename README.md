@@ -10,7 +10,7 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 * 1.1.0
     * Functional extension structure.
 
-## Authors:
+## Authors
 Programming:
 Maris Beer, Sacha Schrempp
 
