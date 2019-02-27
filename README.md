@@ -10,11 +10,13 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 * 1.1.0
     * Functional extension structure.
 * 1.2.0
-    * A pile of changes and performance improves.
+    * pile of changes
+    * improved performance
 * 1.3.0
-    * We fixed a lot of bugs.
+    * fixed bugs
 * 1.4.0
-    * We've done a lot to improve speed and useability.
+    * improved speed
+    * improved useability
 ## Authors
 Programming:
 Maris Beer, Sacha Schrempp
