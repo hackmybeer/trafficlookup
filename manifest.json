@@ -23,12 +23,5 @@
     "default_icon": "icons/DropboxInGut.png",
     "default_title": "Trafficlookup",
     "default_popup": "popup/choose_beast.html"
-  },
-
-  "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
-  ]
-
+  }
 }
