@@ -7,7 +7,7 @@ Hey, with this Firefox extension you can see wich data will be sniffed.
 With this extension you'll get a box icon in your top bar. If you open it, you can see wich cookies have been send threw this webpage. You can also see your systeminfrmations, browserinformations, your private/public IP and of course your location. It shows your coordinates and if you want, it can show these coordinates on openstreetmap (https://www.openstreetmap.org/).
 
 ## Version History
-* 1.1.0 [a link](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.1)
+* [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
     * Functional extension structure.
 * 1.2.0
     * pile of changes
