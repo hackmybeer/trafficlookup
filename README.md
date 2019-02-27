@@ -17,6 +17,9 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 * [1.4.0](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.4 "v1.4")
     * improved speed
     * improved useability
+* [1.5.0](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.5 "v1.5")
+    * changed information updated in addon-menu (in about:addons)
+
 ## Authors
 Programming:
 Maris Beer, Sacha Schrempp
