@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Trafficlookup",
-  "version": "1.5",
+  "version": "1.6",
 
   "description": "With this extension you'll get a box icon in your top bar. If you open it, you can see wich cookies have been send threw this webpage. You can also see your systeminfrmations, browserinformations, your private/public IP and of course your location. It shows your coordinates and if you want, it can show these coordinates on openstreetmap (https://www.openstreetmap.org/). If you got any issues, please visit: https://github.com/TheProgrammingM/trafficlookup/issues and report your issue. If you got any idea how we could improve our addon or you want us to add something, you can send us your idea on this Website too. Have a nice day! Best, your Trafficlookup Team.",
   "homepage_url": "https://github.com/TheProgrammingM/trafficlookup",
@@ -22,6 +22,6 @@
   "browser_action": {
     "default_icon": "icons/DropboxInGut.png",
     "default_title": "Trafficlookup",
-    "default_popup": "popup/choose_beast.html"
+    "default_popup": "popup/main.html"
   }
 }

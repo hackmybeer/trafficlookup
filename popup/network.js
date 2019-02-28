@@ -1,8 +1,26 @@
 console.log("network.js loaded!");
 
-var nURL = window.location.href;
+var nURL = document.getElementById('header-title');
+console.log("nURL_1 =" + nURL);
+
+
+
+/*
+var tabs = require("tabs");
+var nURL = tabs.activeTab.title;
+console.log("url from activ tab is: " + tabs.activeTab.title);
 console.log("nURL_1 =" + nURL);
 /*
+
+
+function getPage(){
+  browser.tabs.query({currentWindow: true, active: true})
+    .then((tabs) => {
+      console.log(tabs[0].url);
+  })
+}
+
+
 function httpGet(nURL)
 {
     if (window.XMLHttpRequest)
