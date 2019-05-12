@@ -20,6 +20,9 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 * [1.5.0](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.5 "v1.5")
     * changed information updated in addon-menu (in about:addons)
 
+## Download and Installation
+You can download the addon from the official Mozilla Addon store! (https://addons.mozilla.org/en-US/firefox/addon/trafficlookup-dev/)
+
 ## Authors
 Programming:
 Maris Beer, Sacha Schrempp
