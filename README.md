@@ -8,7 +8,7 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 
 ## Version History
 * [1.1.0](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.1 "v1.1")
-    * Functional extension structure.
+    * Functional extension structure.+
 * [1.2.0](https://github.com/TheProgrammingM/trafficlookup/releases/tag/v1.2 "v1.2")
     * pile of changes
     * improved performance
@@ -22,6 +22,8 @@ With this extension you'll get a box icon in your top bar. If you open it, you c
 
 ## Download and Installation
 You can download the addon from the official Mozilla Addon store! (https://addons.mozilla.org/en-US/firefox/addon/trafficlookup-dev/)
+If you want to use the beta version you can clone the repo or download it. After you downloaded it, you should cd into the directory (normally: trafficlookup). Now open firefox and type 'about:debugging' into the search bar. Click on "Load Temporary Add-on". You should see a popup window. Open the 'trafficlookup' folder and choose the 'manifest.json' file. Just click on 'Open'.
+Congratiolations! Your Add-on is now installed. 
 
 ## Authors
 Programming:
